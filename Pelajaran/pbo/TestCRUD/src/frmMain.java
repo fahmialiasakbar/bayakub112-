@@ -42,6 +42,7 @@ public class frmMain extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         tbNIS = new javax.swing.JTextField();
@@ -100,58 +101,67 @@ public class frmMain extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("ISIAN DATA SISWA");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel9)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel9)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel4.setBackground(new java.awt.Color(255, 0, 0));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("NIS");
 
-        tbNIS.setBackground(new java.awt.Color(204, 204, 204));
-
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Nama");
 
-        tbNama.setBackground(new java.awt.Color(204, 204, 204));
-
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Jenis Kelamin");
 
         buttonGroup1.add(rbL);
         rbL.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        rbL.setForeground(new java.awt.Color(255, 255, 255));
         rbL.setText("Laki-Laki");
 
         buttonGroup1.add(rbP);
         rbP.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        rbP.setForeground(new java.awt.Color(255, 255, 255));
         rbP.setText("Perempuan");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Kelas");
 
-        tbKelas.setBackground(new java.awt.Color(204, 204, 204));
-
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Email");
 
-        tbEmail.setBackground(new java.awt.Color(204, 204, 204));
-
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Alamat");
 
-        TA.setBackground(new java.awt.Color(204, 204, 204));
         TA.setColumns(20);
         TA.setRows(5);
         jScrollPane1.setViewportView(TA);
@@ -215,10 +225,8 @@ public class frmMain extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel5.setBackground(new java.awt.Color(255, 0, 0));
 
-        bSave.setBackground(new java.awt.Color(255, 0, 0));
-        bSave.setForeground(new java.awt.Color(255, 0, 0));
         bSave.setText("Save");
         bSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -226,8 +234,6 @@ public class frmMain extends javax.swing.JFrame {
             }
         });
 
-        bDelete.setBackground(new java.awt.Color(255, 0, 0));
-        bDelete.setForeground(new java.awt.Color(255, 0, 0));
         bDelete.setText("Delete");
         bDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -235,8 +241,6 @@ public class frmMain extends javax.swing.JFrame {
             }
         });
 
-        bClear.setBackground(new java.awt.Color(255, 0, 0));
-        bClear.setForeground(new java.awt.Color(255, 0, 0));
         bClear.setText("Clear");
         bClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -244,8 +248,6 @@ public class frmMain extends javax.swing.JFrame {
             }
         });
 
-        bRefresh.setBackground(new java.awt.Color(255, 0, 0));
-        bRefresh.setForeground(new java.awt.Color(255, 0, 0));
         bRefresh.setText("Refresh");
         bRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -253,8 +255,6 @@ public class frmMain extends javax.swing.JFrame {
             }
         });
 
-        bEdit.setBackground(new java.awt.Color(255, 0, 0));
-        bEdit.setForeground(new java.awt.Color(255, 0, 0));
         bEdit.setText("Edit");
         bEdit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -292,8 +292,8 @@ public class frmMain extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        tbl.setAutoCreateColumnsFromModel(false);
-        tbl.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel6.setBackground(new java.awt.Color(255, 0, 0));
+
         tbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null},
@@ -556,6 +556,7 @@ public class frmMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
