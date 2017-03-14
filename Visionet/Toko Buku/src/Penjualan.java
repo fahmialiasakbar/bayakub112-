@@ -560,7 +560,7 @@ java.util.Date tglsekarang = new java.util.Date();
 
     private void delActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_delActionPerformed
         int hasil = Integer.parseInt(tbhasil.getText());
-        int diskon = Integer.parseInt(tbDiskon.getText().toString());
+        
         int baris = tbl1.getSelectedRow();
           int minus = Integer.parseInt(tbl1.getValueAt(baris, 4).toString());
           String id = tbl1.getValueAt(baris, 0).toString();
@@ -568,6 +568,7 @@ java.util.Date tglsekarang = new java.util.Date();
           Database.execute(SQL);
           hasil = hasil - minus;
         tbhasil.setText(""+hasil);
+        int diskon = Integer.parseInt(tbDiskon.getText().toString());
         if(hasil>100000){
             diskon = 25*(hasil-100000)/100;
         }
