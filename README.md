@@ -1,3 +1,19 @@
+# Test CRUD
+InsyaAllah khoir
+Hanya tombol print yang belum dapat difungsikan
+
+# ScreenShoot Aplikasi
+## Login dengan Nama islami dan password bayakub
+![SS1](https://github.com/fahmialiasakbar/bayakub/blob/master/crud/crud1.JPG)
+
+![SS1](https://github.com/fahmialiasakbar/bayakub/blob/master/crud/crud2.JPG)
+
+![SS1](https://github.com/fahmialiasakbar/bayakub/blob/master/crud/crud3.JPG)
+
+![SS1](https://github.com/fahmialiasakbar/bayakub/blob/master/crud/crud4.JPG)
+
+![SS1](https://github.com/fahmialiasakbar/bayakub/blob/master/crud/crud5.JPG)
+
 # UTS PBO
 Sudah Sip!
 InsyaAllah berkah
